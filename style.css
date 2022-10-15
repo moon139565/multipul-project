@@ -7,6 +7,7 @@ nav{
     justify-content: space-between;
     background-color: #191343;
     padding: 0 100px;
+    border-bottom: 4px solid #401E63;
    
 }
 nav ul{
@@ -35,3 +36,45 @@ nav div{
     letter-spacing: 0.2em;
     cursor: pointer;
 }
+
+/* hero area code started */
+
+
+header{
+    background-image: url(./pic/website\ banner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.searchbox-iconr-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox-iconr-parent i{
+    background-color: grey;
+    color: red;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+.searchbox-iconr-parent input{
+    width: 500px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px;
+    outline: none;
+}
+/* .searchbox-iconr-parent input:focus{
+    border: none;
+} */
