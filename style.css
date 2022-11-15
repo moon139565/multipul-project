@@ -75,6 +75,34 @@ header{
     padding: 5px 20px;
     outline: none;
 }
-/* .searchbox-iconr-parent input:focus{
-    border: none;
-} */
+
+/* main section started */
+main {
+    background-color: #2D236A;
+    padding: 20px;
+}
+#main-section {
+   width: 1100px;
+   margin: 0 auto;
+   padding: 50px 0;
+}
+#latest-video-parent {
+    display: flex;
+    justify-content: space-between;
+}
+.latest-video-text {
+    font-size: 25px;
+    color: #04AA6D;
+    font-weight: bold;
+}
+.latest-pages {
+    color: #04AA6D;
+}
+.latest-pages span {
+    color: black;
+    background-color: #f3e9e9;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
