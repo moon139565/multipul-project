@@ -106,3 +106,31 @@ main {
     border-radius: 5px;
     margin: 0 10px;
 }
+
+#single-item-parents{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+    margin-top: 25px;
+}
+.single-item{
+    height: 250px;
+    border: 3px solid gray;
+}
+.single-item img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.single-item:hover img{
+      transform: scale(1.1);
+      border-radius: 20px;
+}
+.single-item div{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 10px;
+}
